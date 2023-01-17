@@ -1,0 +1,129 @@
+<!--Montar un código HTML5 que visualice un texto.-->
+<!DOCTYPE html> 
+<html lang="es"> 
+<head>
+    <link href="fuentes/Montserrat-Black.ttf" rel="stylesheet" type="text/css">
+    <link href="fuentes/Montserrat-Regular.ttf" rel="stylesheet" type="text/css">
+    <link href="fuentes/Pacifico-Regular.ttf" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/interpretes.css">
+    <link rel="stylesheet" href="css/top3.css">
+    <meta charset="utf-8">
+    <title> Índice </title>
+    <link rel="shortcut icon" href="img/indice.ico">
+    <script src="js/top3.js" defer></script>
+</head>
+<body>
+<!--Montar un código que muestre una lista desordenada de enlaces a otros .html-->
+    <header class="header">
+        <nav>
+            <a href="index.html" class="nav-link">Inicio</a>
+            <a href="novedades.html" class="nav-link">Novedades</a>
+            <a href="top3.html" class="nav-link">Top 3</a>
+            <a href="interpretes.html" class="nav-link">Intérpretes</a>
+            <a href="ranking.html" class="nav-link">Ranking</a>
+        </nav>
+        <div class="btn">
+            <a href="formulario.html" ><button class="btn">¡Suscríbete!</button></a>
+        </div>
+    </header>
+
+<!--Montar un código para crear una tabla que incluye párrafos, imágenes, cabeceras y enlaces.-->
+        <h1>Top 3 discos más vendidos</h1>
+        <div class="cajatop3">
+            <div class="cadacaja">
+                <img class="imagencaja" id="imagen"  src="img/eric_clapton_unp.jpg">
+                <h2 id="h23">Unplugged</h2>
+                <div>
+                    <div class="parrafo">
+                 <h3 id="h23">Eric Clapton</h3>
+                 <span class="parrafotop3">
+                    "Eric Clapton was 'unplugged' in more
+                    ways than one at that performance.
+                    There, in front of a large studio
+                    audience - and later an enormous
+                    MTV and record-buying audience - an
+                    artist who is know to be very shy dealt
+                    with the most<br>
+                </span>                
+                 <a onclick="vermas('mas1');" id="mas1"><br><br>Leer más...</a>
+                 
+                 <span class="parrafotop3" id="desplegar1" style="display:none;">
+                    painful experience
+                    anyone could ever imagine - the tragic
+                    loss of his son, Conor."<br><br>
+                  <a onclick="vermas('menos1');" id="menos1">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    Leer menos...</a>
+                 </span>
+                </div>
+                </div>
+            </div>
+            <div class="cadacaja">
+                <img class="imagencaja" id="imagen" src="img/laura_pausini_sim.jpg">
+                <h2 id="h23">Simili</h2>
+                <div>
+                <div class="parrafo">
+                 <h3 id="h23">Laura Pausinin</h3>
+                 <span class="parrafotop3">
+                    La copertina dell'album ritrae Laura Pausini distesa in un prato;
+                     nel retrocopertina quattro ragazzi distesi anch'essi nell'erba
+                      ognuno con delle caratteristiche diverse: chi ha dei tatuaggi,
+                       chi ha gli occhi a mandorla, chi è scuro di pelle; il messaggio<br>
+                    </span>                
+                    <a onclick="vermas2('mas2');" id="mas2"><br><br>Leer más...</a>
+                    <span class="parrafotop3" id="desplegar2" style="display:none;">
+                    vuole indicare che in fondo siamo tutti simili.<br><br>
+                    <a onclick="vermas2('menos2');" id="menos2">
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;&nbsp;&nbsp;
+                        Leer menos...</a>
+                    </span>
+                </div>
+                </div>
+            </div>
+            <div class="cadacaja">
+                <img class="imagencaja" id="imagen" src="img/stones_cc.jpg" >
+                <h2 id="h23">The Complete Collection</h2>
+                <div>
+                    <div class="parrafo">
+                 <h3 id="h23">The Rolling Stones</h3>
+                 <span class="parrafotop3">
+                    The three-disc box set Singles Collection: 
+                    The London Years contains every single the Rolling Stones 
+                    released during the '60s, including both the A- and B-sides. 
+                    It is the first Stones compilation that tries to be comprehensive
+                     and<br>
+                </span>                
+                 <a onclick="vermas3('mas3');" id="mas3"><br><br>Leer más...</a>
+                 
+                 <span class="parrafotop3" id="desplegar3" style="display:none;">
+                    logical -- for all their attributes, the two Hot Rocks sets
+                     and the two Big Hits collections didn't present the singles
+                      in chronological order.<br><br>
+                  <a onclick="vermas3('menos3');" id="menos3">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    Leer menos...</a>
+                 </span> 
+                </div>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class="box">
+            <div></div>
+        </div>
+    <footer class="footer">
+        <nav>
+            <a href="#Avisolegal">Aviso legal</a>
+            <a href="#Politicadeprivacidad">Política de privacidad</a>
+            <a href="#Politicadecookies">Política de cookies</a>
+        </nav>
+    </footer>
+</body>
+</html>

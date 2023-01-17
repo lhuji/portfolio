@@ -1,0 +1,84 @@
+@font-face {
+  font-family: 'Montserrat-Regular';
+  src: url(fonts/Montserrat-Regular.ttf) format('truetype');
+}
+body{
+  font-family: 'Montserrat-Regular';
+}
+.cajatop3{
+    display: flex;
+    max-width: 90%;
+    align-items: baseline;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    margin: 0px auto;
+}
+.cadacaja{
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px 10px#c9c9c9;
+    border-color: #333333;
+    margin: 15px;
+    padding: 15px;
+    text-align: center;
+    max-width: 300px;
+    height: 700px;
+}
+.imagencaja{
+    max-width: 300px;  
+    max-height: 300px;
+    text-align: center;
+}
+#h23{
+    text-align: center;
+}
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box div {
+  height: 100px;
+}
+
+#mas1{
+  color: #0098A2;
+}
+#mas1:hover{
+  cursor: pointer;
+}
+#menos1{
+  color: #0098A2;
+}
+#menos1:hover{
+  cursor: pointer;
+}
+#mas2{
+  color: #0098A2;
+}
+#mas2:hover{
+  cursor: pointer;
+}
+#menos2{
+  color: #0098A2;
+}
+#menos2:hover{
+  cursor: pointer;
+}
+#mas3{
+  color: #0098A2;
+}
+#mas3:hover{
+  cursor: pointer;
+}
+#menos3{
+  color: #0098A2;
+}
+#menos3:hover{
+  cursor: pointer;
+}
+.parrafotop3{
+  display: block;
+  text-align: justify;
+}

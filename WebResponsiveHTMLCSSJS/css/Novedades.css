@@ -1,0 +1,68 @@
+
+h1, h2, h3{
+  color:black;
+  text-align: center;
+  
+}
+h2,h3{
+  max-height: 5%;
+}
+.container{
+  margin-bottom: 5%;
+}
+#cabecera_nov{
+  margin-top: 30px;
+}
+.novedad{
+  /* Disposicion columna */
+  padding: 15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-radius: 15px;
+  border: solid 1px #333333;
+  box-shadow: 10px 10px 10px 10px #c9c9c9;
+  transition:.2s all;
+  width: auto;
+  min-height: 97%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.novedad:hover{
+  scale: 1.05;
+}
+
+
+.parrafo{
+  text-align: justify;
+    max-height: 210px;
+    overflow: hidden;
+}
+
+.imgnov{
+  width: 100%;
+  height: auto;
+}
+
+.leermas {
+  cursor: pointer;
+  font-size: 16px;
+  color: #0098A2;
+  text-decoration: none;
+  font-family: "Montserrat Regular", sans-serif;
+  width: 75%;
+  text-align: left;
+}
+
+.precio{
+  width: 25%;
+}
+
+.pie{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  
+}

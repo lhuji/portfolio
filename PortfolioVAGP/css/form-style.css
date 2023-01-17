@@ -1,0 +1,74 @@
+*{box-sizing:border-box;}
+
+#formulario {
+    padding-top: 100px;
+    background-image: url("https://www.wallpapertip.com/wmimgs/36-368739_geometric-background-geometric-backgrounds.jpg");
+    /* Parallax */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#formulario h2 {
+    width: 100%;
+    text-align: center;
+}
+
+form{
+    width:60%;
+    padding:16px;
+    border-radius:10px;
+    margin:auto;
+    background: rgba(255,255,255,0.9);
+    font-size: 1.2em;
+}
+
+fieldset{
+    margin-bottom: 30px;
+}
+
+label{
+    width: 30%;
+    display:inline-block;
+}
+
+label[for=privacidad]{
+    width: 90%;
+    margin-bottom: 30px;
+}
+
+textarea,
+select,
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="url"],
+input[type="date"],
+input[type="number"],
+input[type="file"]{
+    padding:10px;
+    border-radius:5px;
+    background-color: white;
+    margin:8px 0;
+    display:inline-block;
+}
+
+textarea{
+    width:100%;
+}
+
+input[type="reset"],
+input[type="submit"]{
+    font-size: 1.1em;
+    width:49%;
+    padding:10px;
+    border-radius:5px;
+    box-shadow: 5px 10px 8px #b6e9d8;
+    color:#fff;
+    background-color:#399db4;
+} 
+
+input[type="reset"]:hover,
+input[type="submit"]:hover{
+    cursor:pointer;
+}

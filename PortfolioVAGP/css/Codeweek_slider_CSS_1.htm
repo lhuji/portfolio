@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<head>
+    <title>Slider con CSS</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <style>
+        ul, li {
+        padding: 0;
+        margin: 0;
+        list-style: none inside;
+        }
+
+        ul.slider {
+        position: relative;
+        }
+
+        ul.slider li {
+        opacity: 0;
+        transition: opacity .5s;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        margin: 50px;
+        padding: 50px;
+        border: 2px solid red;
+        background: #fff;
+        }
+
+        ul.slider li:first-child {
+            opacity: 1;
+        }
+
+        ul.slider li:target {
+            opacity: 1;
+        }
+
+        nav {
+        position: relative;
+        top: 200px;
+        left: 50px;
+        }
+
+    </style>
+</head>
+<body>
+    <ul class="slider">
+        <li id="slide1">Durante la Codeweek 2019</li>
+        <li id="slide2">hemos realizado actividades</li>
+        <li id="slide3">para aprender programación </li>
+        <li id="slide4">y de paso divertirnos para a su vez</li>
+        <li id="slide5">enseñar a nuestros peques de Primaria</li>
+    </ul>
+    <nav>
+        <ul class="menu">
+            <li><a href="#slide1">Diapositiva 1</a></li>
+            <li><a href="#slide2">Diapositiva 2</a></li>
+            <li><a href="#slide3">Diapositiva 3</a></li>
+            <li><a href="#slide4">Diapositiva 4</a></li>
+            <li><a href="#slide5">Diapositiva 5</a></li>
+        </ul>
+    </nav>
+</body>
+</html>

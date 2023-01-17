@@ -1,0 +1,127 @@
+<!--Montar un código HTML5 que visualice un texto.-->
+<!DOCTYPE html> 
+<html lang="es"> 
+<head>
+    <link href="fuentes/Montserrat-Black.ttf" rel="stylesheet" type="text/css">
+    <link href="fuentes/Montserrat-Regular.ttf" rel="stylesheet" type="text/css">
+    <link href="fuentes/Pacifico-Regular.ttf" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/formulario.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/top3.css">
+    <meta charset="utf-8">
+    <title> Formulario </title>
+    <link rel="shortcut icon" href="img/indice.ico">
+    <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+    <script src="./js/formulario.js" defer></script>
+</head>
+<body>
+<!--Montar un código que muestre enlaces a otros .html-->
+    <header class="header">
+        <nav>
+            <a href="index.html" class="nav-link">Inicio</a>
+            <a href="novedades.html" class="nav-link">Novedades</a>
+            <a href="top3.html" class="nav-link">Top 3</a>
+            <a href="interpretes.html" class="nav-link">Intérpretes</a>
+            <a href="ranking.html" class="nav-link">Ranking</a>
+        </nav>
+        <div class="btn">
+            <a href="suscríbete.html" ><button class="btn">¡Suscríbete!</button></a>
+        </div>
+    </header>
+<!--Código que muestre un h1 dentro de una caja-->
+    <div class="box">
+        <h1>
+             ¡Música gratis durante 1 año!
+        </h1>
+    </div>
+<!--Código que muestre un párrafo dentro de una caja-->
+    <div class="box">
+        <p>
+            ¿Te gustaría escuchar más música pero no quieres gastarte el dinero? <br>
+            ¡Ya no tienes excusa! Gana un año de discos <b>GRATIS</b> participando en<br>
+            nuestro sorteo. No esperes más, sólo tienes que contarnos algo de ti y<br>
+            suscribirte ;)
+        </p>
+    </div>
+<!--Montar un código que muestre un h2 dentro de una caja-->
+    <div class="box">
+        <h2>
+            ¡Corre! Se acaba el tiempo. Tic...tac..
+        </h2>
+    </div>
+<!--Montar un código que muestre 2 cajas dentro de una caja contenedora-->
+    <div class="cajas">
+        <div class="cuadrado"><span id="days"></span> </div>
+        <div class="cuadrado"><span id="hours"></span> <span id="minutes"></span> <span id="seconds"></span></div>
+    </div>
+<!--Montar un código que muestre una section que contenga un formulario-->
+    <section class="formulario">
+        <form id="formulario" action="mailto:atolon@fundacionsafa.es" method="post">
+            <h1>Participa en el sorteo</h1>
+            <!--Montar un código que muestre un input tipo text dentro de una caja-->
+            <div id="primeros">
+              <label for="name">NOMBRE:*</label>
+              <input type="text" id="name" name="user_name" placeholder="Introduce tu nombre" pattern="[a-z A-Z]{1,50}">
+            </div>
+            <!--Montar un código que muestre un input tipo email dentro de una caja-->  
+            <div id="primeros">
+                <label for="mail">EMAIL:*</label>
+                <input type="email" id="email" name="email" placeholder="Introduce tu email" pattern="[^@\s]+@[^@\s]+\.[^@\s]{2,4}">
+            </div>
+            <!--Montar un código que muestre un input tipo number dentro de una caja-->
+            <div id="primeros">
+                <label for="name">Nº DISPOSITIVOS:</label>
+                <input type="number" id="ndispositivos" name="ndispositivos" placeholder="0" min="0">
+            </div>
+            <!--Montar un código que muestre un input tipo range dentro de una caja-->
+            <div id="resto">
+              <label for="descargas">DESCARGAS/MES:</label>
+              <input type="range" id="rango" name="descargas/mes" value="50" max="500" min="0" step="10">
+              <label id="valor">Valor actual: 50</label>
+              <script>
+                $('#rango').on('input', function() {
+                  $('#valor').html( 'Valor actual: ' + $(this).val())
+                })
+              </script>
+            </div>
+            <!--Montar un código que muestre un select que contenga 4 opciones dentro de una caja-->
+            <div id="restorange">
+                <label for="genero">GÉNERO MUSICAL:</label>
+                <select type="generomusical" id="generomusical" name="generomusical">
+                    <option value="clasica">Clásica</option>
+                    <option value="jazz">Jazz</option>
+                    <option value="rock">Rock</option>
+                    <option value="pop">Pop</option>
+                </select>
+            </div>
+            <!--Montar un código que muestre un input tipo date dentro de una caja-->
+            <div id="resto">
+                <label for="date">FECHA DE NACIMIENTO:</label>
+                <input type="date" id="date" name="date">
+            </div>
+            <!--Montar un código que muestre un input tipo color dentro de una caja-->
+            <div id="resto">
+                <label for="color">COLOR PREFERIDO:</label>
+                <input type="color" id="color" name="color">
+            </div>   
+            <!--Montar un código que muestre un input tipo checkbox dentro de una caja-->    
+            <div class="politica">
+                <input type="checkbox" name="politica" required>
+                <label id="politica" for="politica">*He leido y acepto la política de privacidad</label>
+            </div>
+            <!--Montar un código que muestre un boton tipo submit-->
+            <div>
+              <button class="enviar" type="submit" value="enviar">Enviar</button>
+            </div>
+          </form>
+    </section>
+    <!--Montar un código que muestre enlaces a otros .html en el final de la página-->
+    <footer class="footer">
+        <nav>
+            <a href="#Avisolegal">Aviso legal</a>
+            <a href="#Politicadeprivacidad">Política de privacidad</a>
+            <a href="#Politicadecookies">Política de cookies</a>
+        </nav>
+    </footer>
+</body>
+</html>

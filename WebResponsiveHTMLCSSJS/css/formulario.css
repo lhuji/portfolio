@@ -1,0 +1,118 @@
+/* Alineación */
+.cajas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* Cuadrados pequeños */
+.cuadrado{
+    font-family: 'Montserrat-Regular';
+    size: 1.5rem;
+    color: white;
+    padding: 10px;
+    border: 2px solid black;
+    box-shadow: 0 0 10px #C9C9C9;
+    border-radius: 7px;
+    background-color: #F81D44;
+    margin: 15px;
+}
+/* Caja formulario*/
+.formulario{
+    width: 60%;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    border: 2px solid #000000;
+    margin: 0px auto;
+    margin-bottom: 30px;
+}
+/* Texto formulario*/
+#formulario{
+    font-family: 'Raleway';
+    text-align: center;
+    color: #393939;
+    size: 0.8rem;
+    font-weight: bold;
+}
+/* 3 primeros inputs*/
+#primeros {
+    text-align: left;
+    border-radius: 13px;
+    margin-bottom: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 1px solid #C9C9C9;
+}
+/* El resto del formulario*/
+#resto{
+    text-align: left;
+    border-top: 1px solid #C9C9C9;
+    border-bottom: 1px solid #C9C9C9;
+    margin-bottom: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+#restorange{
+    text-align: left;
+    border-top: 1px solid #C9C9C9;
+    border-bottom: 1px solid #C9C9C9;
+    margin-bottom: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+/* Modificación de los inputs*/
+input {
+    background-color: lavender;
+    margin-left: 10px;
+    border: none;
+}
+/* Estilo de politica de privacidad*/
+.politica{
+    font-family: sans-serif;
+    color: gray;
+    size: 1px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+}
+/* Posición y tamaño de politica de privacidad*/
+#politica{
+    display: flex;
+    font-size: 0.7rem;
+}
+/*Posicion y estilo del boton enviar*/
+.enviar {
+    text-align: center;
+    margin: 0px auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 100%;
+    height: 60px;
+    background-color: #333333;
+    border-radius: 50px;
+    font-family: 'Montserrat-Regular';
+    size: 1.3rem;
+    color: #fff;
+    transition: 0.4s;
+}
+/* Estilo del menú desplegable*/
+#generomusical{
+    margin-left: 10px;
+    width: 100px;
+}
+/* Color preferido */
+#color{
+    width: 100px;
+}
+/* Cambio de color del boton enviar al pasar el ratón por encima*/
+.enviar:hover{
+    background-color:#F81D44;
+    /*transition-duration: 0s; */
+}

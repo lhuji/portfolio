@@ -1,0 +1,51 @@
+<!DOCTYPE html> 
+<html lang="es"> 
+<head>
+    <link rel="stylesheet" href="estilo2.css">
+    <link rel="stylesheet" href="estilo1.css">
+    <meta charset="utf-8">
+    <script src="index.js" defer></script>
+    <title> Prueba HTML5-1 </title>  
+</head>
+<body>
+<!--Montar un código que muestre una lista desordenada de enlaces a otros .html-->
+    <header class="header">
+        <nav id="contenedor">
+            <div id="cajatitulo">
+            <h1 id="h1">Header Dinámico</h1>
+            </div>
+            <div id="enlaces">
+            <a href="#" class="nav-link">Inicio</a>
+            <a href="#" class="nav-link">Deportes</a>
+            <a href="#" class="nav-link">Viajes</a>
+            <a href="#" class="nav-link">Contacto</a>
+            </div>
+        </nav>
+    </header>
+    <!--Montar un código que defina el contenido principal d    el documento--->
+    <main>
+    <div id="h2">
+        <h2>Cada botón te lo muestra en un estilo diferente</h2>
+    </div>
+    <div id="btn">
+        <button class="btn" onclick="secundario(),secundario2()">Secundario</button>
+        <button class="btn" onclick="principal()">Principal</button>
+    </div>       
+    <script type="text/javascript">
+        let header = document.getElementsByClassName("header");
+        let h1 = document.getElementById("h1");
+        let elementos = document.getElementsByClassName("nav-link");
+        function secundario() {
+            h1.setAttribute("style", "color: #F2F2F2; margin: 15px; font-size: 30px;"); 
+            elementos.setAttribute("style", "font-size:15");       
+            header.setAttribute("style", "height: 100px;");   
+            }
+        function principal() {
+            h1.setAttribute("style", "color: #F2F2F2; margin: 15px;font-size: 50px;")
+            elementos.setAttribute("style", "font-size:20");   
+            header.setAttribute("style", "height: 200px;");  
+            }
+    </script>
+    </main>
+</body>
+</html> 

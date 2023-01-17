@@ -1,0 +1,168 @@
+/* Cuerpo */
+* {
+  box-sizing: border-box;
+  font-family: "Poppins", "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+body {
+  margin: 0;
+  background-color: azure;
+}
+p, li, th, td {
+  font-size: 1.1em;
+}
+/* Enlaces de navegación */
+nav {
+  overflow: hidden;
+  background-color: #333;
+}
+nav a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+/* Cabecera superior */
+header#cabecera{
+    text-align: center;
+    padding-top: 100px;
+    height: 600px;
+    background-image: url("https://www.wallpapertip.com/wmimgs/36-368739_geometric-background-geometric-backgrounds.jpg");
+    /* Parallax */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header#cabecera hr {
+    width: 20%;
+    margin: 0px auto 0px;
+}
+header#cabecera img {
+    height: 150px;
+    width: 150px;
+    margin: auto;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 1px solid black;
+}
+header#cabecera h1{
+    font-size: 40pt;
+    color: #08a5b4;
+}
+header#cabecera h2{
+    font-size: 25pt;
+}
+header#cabecera blockquote {
+  background: white;
+  width: 40%;
+  margin: 25px auto 0px;
+  padding: 20px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+header#cabecera blockquote:before {
+  color: gray;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.4em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+/* Cuerpo principal de la página */
+main {
+  background-color: #b6e9d8;
+  padding: 10px;
+  height:100%;
+  display: -webkit-flex;
+  display: flex;
+  flex-wrap: wrap;
+}
+@media (max-width: 600px) {
+  main {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+section {
+  padding: 20px;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+section header {
+  text-align: center;
+}
+article {
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 40px;
+  border-radius: 20px;
+  box-shadow: 5px 10px 8px #08a5b4;
+}
+article img {
+  width: 80px;
+}
+/* Lista de tags */
+#soft-skills li {
+  display: inline-block;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+/* Tabla horario */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th, td {
+  border: 1px solid black;
+  padding: 10px;
+}
+caption {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  font-size: 2rem;
+}
+table tr:nth-child(even){background-color: #f2f2f2;}
+table tr:hover {background-color: #ddd;}
+table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #08a5b4;
+  color: white;
+}
+/* Pie de página */
+footer {
+  padding: 14px 16px;
+  justify-content: center;
+  overflow: hidden;
+  background-color: #333;
+  display: -webkit-flex;
+  display: flex;
+  flex-wrap: wrap;
+}
+footer a{
+  color: white;
+  text-decoration: none;
+}
+@media (max-width: 600px) {
+  footer {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+#footer-izq, #footer-centro, #footer-dcha {
+  color: white;
+  padding: 20px;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}

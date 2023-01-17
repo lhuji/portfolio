@@ -1,0 +1,79 @@
+.section{
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 4px 4px 4px 4px#c9c9c9;
+    max-width: 90%;
+    margin: 0px auto;
+    justify-content: center;
+    align-items: center;
+    margin: 3%;
+    padding: 1%;
+    
+}
+.h2 {
+    display: flex;
+    text-align: center;
+    justify-content: center ;
+    width: 100%;
+    font-family: 'Pacifico-regular';
+    font-family:MontSerrat-Black;
+    font-family: 'Montserrat-Regular';
+}
+.ruibal{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+
+}
+#ruibal {
+    max-width: 40%;
+
+}
+.p {
+    display: flex;
+    max-width: 55%;
+    text-align: justify;
+    flex-direction: column;
+    justify-content: center;
+    font-family: none;
+
+}
+.discos {
+    display: flex;
+    width: 80%;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    margin: 0px auto;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+#imgdisc {
+    width: 20%;
+    max-width: 250px;
+    max-height: 300px;
+    padding: 10px;    
+}
+.imgdisc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.imgdiscEA {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+}
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+.box div {
+    height: 150px;
+}

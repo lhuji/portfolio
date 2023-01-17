@@ -1,0 +1,7 @@
+El programa ya sabe el número; ahora te toca adivinarlo...
+Para ello tienes 6 intentos como máximo.
+Introduce el número que estás pensando: 
+¡Pues no, es más pequeño!
+¡Pues no, es más grande!
+¡Ahora es correcto!
+¡Lo siento, tras el número máximo de intentos no lo has averiguado!

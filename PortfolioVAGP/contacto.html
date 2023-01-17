@@ -1,0 +1,71 @@
+<!DOCTYPE html> 
+<html lang="es"> 
+ <head>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/form-style.css">
+    <style>
+    </style>
+    <meta charset="utf-8">
+    <title> Contacto</title>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Sobre mí</a>
+        <a href="https://www.linkedin.com/in/v%C3%ADctor-adonay-galiano-pombo-0a8166226/" target="_blank">LinkedIn</a>
+        <a href="contacto.html">Contacto</a>
+    </nav>
+    <header id="cabecera">
+        <h1>Víctor Adonay Galiano Pombo</h1>
+        <hr>
+        <h2>Desarrollador de Aplicaciones y Productor Audiovisual</h2>
+        <img src="img/foto.jpg" alt="Víctor Adonay Galiano Pombo">
+        <blockquote cite="Propia">No estamos en tu punto de mira, 
+            Estamos en tu punto ciego.</blockquote>
+    </header>
+    <main id="formulario">
+        <h2>Formulario de contacto</h2>
+        <form method="get" target="_blank" action="https://didacticode.000webhostapp.com/result.php">
+            <fieldset>
+                <legend>Datos del cliente</legend>
+                <label>Nombre:</label> <input name="nombre" placeholder="nombre" size="40" type="text" required><br>
+                <label>Apellidos:</label> <input name="apellidos" placeholder="Apellidos" size="40" type="text" required><br>
+                <label>Email:</label> <input name="email" placeholder="Email" size="40" type="email" required><br>
+                <label>Teléfono:</label><input name="telefono" placeholder="telefono" size="40" type="tel" maxlength="12" required minlength="9">
+            </fieldset>
+            <fieldset>
+                <legend>Datos de la empresa</legend>
+                <label>Nombre de la empresa: </label><input name="nombre-empresa" placeholder="nombre empresa" size="40" type="text"><br>
+                <label>Web de la empresa:</label><input name="url-empresa" placeholder="url empresa" size="40" type="url"><br><br>
+                <label>Tamaño de la empresa</label><br><br>
+                <input type="radio" value="microempresa" name="empresa">Microempresa<br>
+                <input type="radio" value="pyme" name="empresa">PYME<br>
+                <input type="radio" value="granempresa" name="empresa">Gran Empresa
+            </fieldset>
+            <fieldset>
+                <legend>Datos del proyecto</legend>
+                <label>Tipo de proyecto</label><select name="proyecto">
+                    <option type="radio" value="gestor de contenido" name="proyecto">Gestor de contenidos</option>
+                    <option type="radio" value="software amedida" name="proyecto">Software a medida</option>
+                    <option type="radio" value="funcionalidad" name="proyecto">Funcionalidad</option>
+                    <option type="radio" value="otros" name="proyecto">Otros</option>
+                </select>
+                <br>
+                <label>Descripción del proyecto</label><textarea cols="30" name="descripcion" rows="10"></textarea>
+                <br>
+                <label>Fecha de entrega:</label><input placeholder="Entrega" type="date" name="entrega" required><br>
+                <label>Presupuesto máximo:</label><input placeholder="Presupuesto" type="number" name="presupuesto" min="5000" placeholder="multiplo de 5000" step="5000" required><br>
+                <label>Fichero Adjunto</label><input type="file">
+            </fieldset>
+          <input type="hidden" name="landing2022" id="landing2022" value="Formulario landing 2022">
+          <input type="checkbox" name="privacidad" value="aceptada">
+          <label>Acepto la política de privacidad</label>
+          <br><br>
+          <input type="reset" name="reiniciar formulario" value="reiniciar formulario"><input type="submit" name="enviar formulario" value="enviar formulario">
+          
+        </form>
+    </main>
+    <footer>
+        <a href="https://didacticode.com/" target="_blank"> www.didacticode.com</a>
+    </footer>
+</body>
+</html>
