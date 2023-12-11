@@ -1,0 +1,6 @@
+canvas {
+    background-image: url("images/fondo.jpg");
+    background-size: cover; /* Ajustar la imagen al tamaño del canvas */
+    display: block;
+    margin: 0 auto;
+  }

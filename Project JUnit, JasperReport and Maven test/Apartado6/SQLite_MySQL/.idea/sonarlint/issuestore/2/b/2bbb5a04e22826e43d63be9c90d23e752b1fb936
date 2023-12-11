@@ -1,0 +1,58 @@
+
+Z	Web:S5254"@Add "lang" and/or "xml:lang" attributes to this "<html>" element(œ÷Ãûÿÿÿÿ
+B	Web:S1827
+"(Remove this deprecated "text" attribute.(Ë•»‚úÿÿÿÿ
+B	Web:S1827
+"(Remove this deprecated "link" attribute.(Ë•»‚úÿÿÿÿ
+C	Web:S1827
+")Remove this deprecated "alink" attribute.(Ë•»‚úÿÿÿÿ
+C	Web:S1827
+")Remove this deprecated "vlink" attribute.(Ë•»‚úÿÿÿÿ
+@	Web:S5257",Replace this layout table with a CSS layout.(§¹×_
+=	Web:S1827")Remove this deprecated "width" attribute.(§¹×_
+C	Web:S1827"/Remove this deprecated "cellpadding" attribute.(§¹×_
+C	Web:S1827"/Remove this deprecated "cellspacing" attribute.(§¹×_
+>	Web:S1827")Remove this deprecated "width" attribute.(ç—»Ø
+>	Web:S1827")Remove this deprecated "align" attribute.(ç—»Ø
+@	Web:S5257",Replace this layout table with a CSS layout.(˜áĞ
+C	Web:S1827"/Remove this deprecated "cellpadding" attribute.(˜áĞ
+C	Web:S1827"/Remove this deprecated "cellspacing" attribute.(˜áĞ
+?	Web:S1827"*Remove this deprecated "valign" attribute.(¤û¬å
+D	Web:S1827)"*Remove this deprecated "valign" attribute.(ı½¯çşÿÿÿÿ
+D	Web:S1827-"*Remove this deprecated "valign" attribute.(ˆš½Ùøÿÿÿÿ
+MWeb:TableWithoutCaptionCheck7" Add a description to this table.(…­Òşıÿÿÿÿ
+?	Web:S52567"%Add "<th>" headers to this "<table>".(…­Òşıÿÿÿÿ
+I	Web:S18277"/Remove this deprecated "cellpadding" attribute.(…­Òşıÿÿÿÿ
+I	Web:S18277"/Remove this deprecated "cellspacing" attribute.(…­Òşıÿÿÿÿ
+?	Web:S18278"*Remove this deprecated "valign" attribute.(¤û¬å
+D	Web:S1827<"*Remove this deprecated "valign" attribute.(Ñâ—ªıÿÿÿÿ
+TWeb:TableWithoutCaptionCheckE" Add a description to this table.(…­Òşıÿÿÿÿ8£¸½1
+F	Web:S5256E"%Add "<th>" headers to this "<table>".(…­Òşıÿÿÿÿ8£¸½1
+P	Web:S1827E"/Remove this deprecated "cellpadding" attribute.(…­Òşıÿÿÿÿ8£¸½1
+P	Web:S1827E"/Remove this deprecated "cellspacing" attribute.(…­Òşıÿÿÿÿ8£¸½1
+F	Web:S1827F"*Remove this deprecated "valign" attribute.(¤û¬å8£¸½1
+K	Web:S1827J"*Remove this deprecated "valign" attribute.(‘™›ªùÿÿÿÿ8£¸½1
+K	Web:S1827N"*Remove this deprecated "valign" attribute.(É Şûÿÿÿÿ8£¸½1
+F	Web:S1827]"*Remove this deprecated "valign" attribute.(¥ı¢8£¸½1
+F	Web:S1827a"*Remove this deprecated "valign" attribute.(×éÌş8£¸½1
+D	Web:S1827"*Remove this deprecated "valign" attribute.(ı½¯çşÿÿÿÿ
+G	Web:S1827•"*Remove this deprecated "valign" attribute.(”ô€8£¸½1
+G	Web:S1827™"*Remove this deprecated "valign" attribute.(”ô€8£¸½1
+L	Web:S1827"*Remove this deprecated "valign" attribute.(İâµÍşÿÿÿÿ8£¸½1
+L	Web:S1827­"*Remove this deprecated "valign" attribute.(€ª¾îúÿÿÿÿ8£¸½1
+L	Web:S1827ÎL"*Remove this deprecated "valign" attribute.(ËË²µúÿÿÿÿ8ä£¸½1
+L	Web:S1827èL"*Remove this deprecated "valign" attribute.(ÛË¹ıÿÿÿÿ8ä£¸½1
+G	Web:S1827ŠM"*Remove this deprecated "valign" attribute.(Í’»æ8ä£¸½1
+L	Web:S1827´M"*Remove this deprecated "valign" attribute.(ı½¯çşÿÿÿÿ8ä£¸½1
+?	Web:S1827ºM")Remove this deprecated "width" attribute.(Ñ‹Ñ
+:	css:S4649>"&Unexpected missing generic font family(®¨¹]
+B	css:S4649R"&Unexpected missing generic font family(ÈİŸê8€½¸½1
+H	css:S4649‘"&Unexpected missing generic font family(ğãÂÿÿÿÿÿ8½¸½1
+C	css:S4649¡"&Unexpected missing generic font family(ªÃŠ 8½¸½1
+H	css:S4649£"&Unexpected missing generic font family(ğˆ¼œûÿÿÿÿ8½¸½1
+H	css:S4649¥"&Unexpected missing generic font family(²û¶Øıÿÿÿÿ8½¸½1
+H	css:S4649§"&Unexpected missing generic font family(ÿ “äıÿÿÿÿ8½¸½1
+B	css:S4649©"&Unexpected missing generic font family(ˆ¹Ñ8½¸½1
+H	css:S4649±"&Unexpected missing generic font family(±Ú¤Óÿÿÿÿÿ8½¸½1
+C	css:S4649ÈL"&Unexpected missing generic font family(“ÈÚÇ8ã½¸½1
+<	css:S4649ÔL"&Unexpected missing generic font family(¥ßİŞ

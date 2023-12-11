@@ -1,0 +1,8 @@
+
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(à½ 8óïÌ¨¸1
+Œ
+java:S4165"jRemove this useless assignment; "nacionalidad" already holds the assigned value along all execution paths.(åÚøêùÿÿÿÿ8¾Äí—»1
+U
+java:S1172"8Remove this unused method parameter "nuevaNacionalidad".(Ñš…Î8˜ĞÕ·½1
+Q
+java:S1656"/Remove or correct this useless self-assignment.(åÚøêùÿÿÿÿ8ÇÄí—»1

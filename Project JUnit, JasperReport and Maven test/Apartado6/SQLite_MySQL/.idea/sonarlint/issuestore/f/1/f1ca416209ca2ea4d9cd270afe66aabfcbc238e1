@@ -1,0 +1,86 @@
+
+o
+java:S1192a"MDefine a constant instead of duplicating this literal "nacionalidad" 3 times.(öó¬üÿÿÿÿ8²ËÕ·½1
+k
+java:S1192_"NDefine a constant instead of duplicating this literal "fechaApertura" 3 times.(‚¿Í8³ËÕ·½1
+o
+java:S1192]"MDefine a constant instead of duplicating this literal "numeroCuenta" 3 times.(¹ì¸íøÿÿÿÿ8´ËÕ·½1
+j
+java:S1192^"HDefine a constant instead of duplicating this literal "titular" 3 times.(”ê»ıÿÿÿÿ8µËÕ·½1
+d
+java:S1192Ï"FDefine a constant instead of duplicating this literal "Error" 6 times.(Ñ”åÄ8³ËÕ·½1
+h
+java:S1192`"FDefine a constant instead of duplicating this literal "saldo" 3 times.(»Ãè‡ıÿÿÿÿ8´ËÕ·½1
+™
+java:S1192T"|Define a constant instead of duplicating this literal "jdbc:mariadb://localhost:3306/visor?user=root&password=root" 4 times.(È³ß8µËÕ·½1
+m	java:S117v"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(á‹É…8…úî¼1
+s	java:S117€"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¨í®şÿÿÿÿ8†úî¼1
+n	java:S117”"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(è¡©8†úî¼1
+:
+java:S1643„"Use a StringBuilder instead.(†ãÌ…8†úî¼1
+:
+java:S1643Ê"Use a StringBuilder instead.(†ãÌ…8ºËÕ·½1
+p
+java:S1104E"SMake cuentas a static final constant or non-public and provide accessors if needed.(ğÌËµ8†úî¼1
+u
+java:S1104F"XMake currentIndex a static final constant or non-public and provide accessors if needed.(ã‚¦ñ8‡úî¼1
+J
+java:S1444E"-Make this "public static cuentas" field final(ğÌËµ8‡úî¼1
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(…”Ö8‰úî¼1
+f
+java:S2095£"HUse try-with-resources or close this "Connection" in a "finally" clause.(Áí¶’8ë®—º½1
+r
+java:S2095¦"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(â…ÍÆÿÿÿÿÿ8ë®—º½1
+r
+java:S2095Ì"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(”ÌÂæúÿÿÿÿ8šİ…º½1
+r
+java:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(â…ÍÆÿÿÿÿÿ8šİ…º½1
+f
+java:S2095"HUse try-with-resources or close this "Connection" in a "finally" clause.(Áí¶’8šİ…º½1
+F
+java:S3010M"$Remove this assignment of "cuentas".(†Óï†øÿÿÿÿ8Çúî¼1
+D
+java:S2386M""Make member "cuentas" "protected".(†Óï†øÿÿÿÿ8Çúî¼1
+W
+java:S2209M"5Change this instance-reference to a static reference.(†Óï†øÿÿÿÿ8Èúî¼1
+X
+java:S1117Q";Rename "cuentas" which hides the field declared at line 69.(¤€–Ñ8Éúî¼1
+^
+java:S1117_"ARename "fechaApertura" which hides the field declared at line 73.(‚¿Í8Êúî¼1
+Y
+java:S2696"6Make the enclosing method "static" or remove this set.(¶Á¦êøÿÿÿÿ8òÎÕ·½1
+Y
+java:S2696æ"6Make the enclosing method "static" or remove this set.(¶Á¦êøÿÿÿÿ8ƒÏÕ·½1
+F	java:S108È")Either remove or fill this block of code.(å¥‡8Şúî¼1
+T
+java:S2696Î"6Make the enclosing method "static" or remove this set.(‹İ°ô8Şúî¼1
+S
+java:S2209Î"5Change this instance-reference to a static reference.(‹İ°ô8àúî¼1
+\
+java:S1854¿">Remove this useless assignment to local variable "dataSource".(™Æ˜É8ğšõ¸½1
+_
+java:S1075’"ARefactor your code to get this URI from a customizable parameter.(İ¤©8êŠ—º½1
+T
+java:S6437£"6Revoke and change this password, as it is compromised.(Áí¶’8§Íó¸½1
+Y
+java:S1117ª";Rename "cuentas" which hides the field declared at line 69.(¤€–Ñ8“­ó¸½1
+_
+java:S1117­"ARename "fechaApertura" which hides the field declared at line 73.(µğ™º8“­ó¸½1
+M
+java:S1481¿"/Remove this unused "dataSource" local variable.(™Æ˜É8öšõ¸½1
+_
+java:S1075ı"ARefactor your code to get this URI from a customizable parameter.(İ¤©8ğğ·º½1
+T
+java:S6437"6Revoke and change this password, as it is compromised.(Áí¶’8Ïòó¸½1
+Y
+java:S1117“";Rename "cuentas" which hides the field declared at line 69.(¤€–Ñ8˜­ó¸½1
+_
+java:S1117–"ARename "fechaApertura" which hides the field declared at line 73.(µğ™º8˜­ó¸½1
+o
+java:S1128"MRemove this unused import 'net.sf.jasperreports.engine.JasperCompileManager'.(ì¦òıÿÿÿÿ8¡¯—º½1
+J
+java:S1128"-Remove this unused import 'java.time.ZoneId'.( Æ½“8¡¯—º½1
+hsecrets:S6703T"HMake sure this database password gets changed and removed from the code.(È³ß8…ûÆ—»1
+isecrets:S6703Ñ"HMake sure this database password gets changed and removed from the code.(È³ß8±…¥š»1
+isecrets:S6703"HMake sure this database password gets changed and removed from the code.(È³ß8ÍÜÕ·½1
+isecrets:S6703È"HMake sure this database password gets changed and removed from the code.(È³ß8Ä­ó¸½1

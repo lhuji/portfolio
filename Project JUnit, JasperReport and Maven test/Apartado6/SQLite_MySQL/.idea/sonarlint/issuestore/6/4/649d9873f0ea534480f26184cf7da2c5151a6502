@@ -1,0 +1,11 @@
+
+‰
+java:S1192"gDefine a constant instead of duplicating this literal "-fx-control-inner-background: #ff6c6c;" 8 times.(ëüˆáûÿÿÿÿ8¬×Îš»1
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(à½ 8ş´¿š»1
+^	java:S107"=Method has 11 parameters, which is greater than 7 authorized.(ÒôÇŞøÿÿÿÿ8³×Îš»1
+t
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(ÒôÇŞøÿÿÿÿ8´×Îš»1
+h
+java:S1172"FRemove these unused method parameters "nacLabelvacio", "nacionalidad".(ÒôÇŞøÿÿÿÿ8·×Îš»1
+R
+java:S1128"0Remove this unused import 'java.time.LocalDate'.(›‘¬èıÿÿÿÿ8ÖñÎš»1
