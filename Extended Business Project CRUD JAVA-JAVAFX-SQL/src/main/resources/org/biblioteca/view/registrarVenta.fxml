@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="311.0" prefWidth="333.0" style="-fx-background-color: #212517;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.biblioteca.controlador.RegistrarVenta">
+   <children>
+      <Label layoutX="72.0" layoutY="14.0" prefHeight="35.0" prefWidth="190.0" text="REGISTRAR VENTA" textFill="#f2f2ef">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font></Label>
+      <Button fx:id="btnRegistrar" layoutX="203.0" layoutY="260.0" mnemonicParsing="false" onAction="#registrarVenta" text="REGISTRAR" />
+      <Button fx:id="btnCancelar" layoutX="55.0" layoutY="260.0" mnemonicParsing="false" onAction="#cancelar" text="CANCELAR" />
+      <ComboBox fx:id="comboProducto" layoutX="82.0" layoutY="60.0" prefHeight="25.0" prefWidth="171.0" promptText="Selecciona el producto" />
+      <ComboBox fx:id="comboCliente" layoutX="82.0" layoutY="100.0" prefHeight="25.0" prefWidth="171.0" promptText="Selecciona el cliente" />
+      <ComboBox fx:id="comboProveedor" layoutX="82.0" layoutY="140.0" prefHeight="25.0" prefWidth="171.0" promptText="Selecciona el proveedor" />
+      <DatePicker fx:id="fechaVenta" layoutX="80.0" layoutY="180.0" promptText="Fecha de venta" />
+      <TextField fx:id="cantidadVenta" layoutX="82.0" layoutY="217.0" prefHeight="25.0" prefWidth="171.0" promptText="Cantidad" />
+   </children>
+</AnchorPane>

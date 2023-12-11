@@ -1,0 +1,13 @@
+
+|
+java:S1104"_Make nombreProductoField a static final constant or non-public and provide accessors if needed.(ÅšÎ›8¨ã¤¢Â1
+€
+java:S1104"^Make stockProductoField a static final constant or non-public and provide accessors if needed.(ŒÒÄåúÿÿÿÿ8©ã¤¢Â1
+
+java:S1450"]Remove the "menuController" field and declare it as a local variable in the relevant methods.(Øšõ¤ÿÿÿÿÿ8Êã¤¢Â1
+N
+java:S1172'",Remove this unused method parameter "event".(ùÇ¡¥şÿÿÿÿ8Íã¤¢Â1
+H
+java:S1128"+Remove this unused import 'java.util.Date'.(¸…¼ü8Õã¤¢Â1
+T
+java:S1068"2Remove this unused "menuController" private field.(Øšõ¤ÿÿÿÿÿ8Õã¤¢Â1

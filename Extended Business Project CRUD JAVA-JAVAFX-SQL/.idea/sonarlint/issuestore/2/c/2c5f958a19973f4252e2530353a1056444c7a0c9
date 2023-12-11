@@ -1,0 +1,19 @@
+
+u
+java:S1104"XMake btnRegistrar a static final constant or non-public and provide accessors if needed.(è¤ú´8¹»õşÁ1
+y
+java:S1104"WMake btnCancelar a static final constant or non-public and provide accessors if needed.(Ü”Ú‘ûÿÿÿÿ8º»õşÁ1
+‚
+java:S1104"`Make nombreProveedorField a static final constant or non-public and provide accessors if needed.(ÂˆÂŠşÿÿÿÿ8ú„öşÁ1
+…
+java:S1104"cMake direccionProveedorField a static final constant or non-public and provide accessors if needed.(­ëıÔúÿÿÿÿ8³¤öşÁ1
+
+java:S1104"bMake contactoProveedorField a static final constant or non-public and provide accessors if needed.(ø»ìŞ8ì»öşÁ1
+
+java:S1450"]Remove the "menuController" field and declare it as a local variable in the relevant methods.(Øšõ¤ÿÿÿÿÿ8á»õşÁ1
+N
+java:S1172",Remove this unused method parameter "event".(ùÇ¡¥şÿÿÿÿ8æ»õşÁ1
+O
+java:S11720"2Remove this unused method parameter "actionEvent".(”Õ¯8ù¸ÈÿÁ1
+T
+java:S1068"2Remove this unused "menuController" private field.(Øšõ¤ÿÿÿÿÿ8í»õşÁ1

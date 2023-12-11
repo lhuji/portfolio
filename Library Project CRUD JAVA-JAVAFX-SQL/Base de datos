@@ -1,0 +1,28 @@
+CREATE DATABASE IF NOT EXISTS biblioteca;
+
+USE biblioteca;
+
+CREATE TABLE IF NOT EXISTS libros (
+    idLibro INT AUTO_INCREMENT PRIMARY KEY,
+    titulo VARCHAR(255) NOT NULL,
+    autor VARCHAR(255) NOT NULL,
+    anioPublicacion DATE,
+    cantidadDisponible INT
+);
+
+INSERT INTO libros (titulo, autor, anioPublicacion, cantidadDisponible)
+VALUES
+  ('El Hobbit', 'J.R.R. Tolkien', '1937-09-21', 15),
+  ('El Señor de los Anillos: La Comunidad del Anillo', 'J.R.R. Tolkien', '1954-07-29', 20),
+  ('El Señor de los Anillos: Las Dos Torres', 'J.R.R. Tolkien', '1954-11-11', 18),
+  ('El Señor de los Anillos: El Retorno del Rey', 'J.R.R. Tolkien', '1955-10-20', 22);
+
+  CREATE TABLE `usuarios` (
+  	`idUsuario` INT NOT NULL,
+  	`nombre_usuario` VARCHAR(50) NULL DEFAULT NULL,
+  	`contrasena` VARCHAR(50) NULL DEFAULT NULL,
+  	PRIMARY KEY (`idUsuario`)
+  )
+  COLLATE='utf8mb4_general_ci'
+  ;
+INSERT INTO `biblioteca`.`usuarios` (`idUsuario`, `nombre_usuario`, `contrasena`) VALUES ('1', '1', '1');

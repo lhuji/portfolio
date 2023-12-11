@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="602.0" prefWidth="936.0" style="-fx-background-color: #212517;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.biblioteca.controlador.MenuControlador">
+   <children>
+      <ImageView fitHeight="80.0" fitWidth="88.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../img/Logo.jpg" />
+         </image>
+      </ImageView>
+       <Label fx:id="fechaActual" layoutX="749.0" layoutY="23.0" prefHeight="17.0" prefWidth="173.0" text="Fecha Actual" textAlignment="RIGHT" textFill="#f2f2ef">
+           <font>
+               <Font size="23.0" />
+           </font>
+       </Label>
+       <Label fx:id="horaActual" layoutX="614.0" layoutY="23.0" prefHeight="34.0" prefWidth="122.0" text="Hora actual" textAlignment="RIGHT" textFill="#f2f2ef">
+           <font>
+               <Font size="23.0" />
+           </font>
+       </Label>
+       <Button fx:id="generarHTMLInventario" layoutX="123.0" layoutY="28.0" mnemonicParsing="false" onAction="#generarHTMLInventario" text="INVENTARIO ACTUAL" textAlignment="CENTER">
+           <font>
+               <Font name="System Bold" size="12.0" />
+           </font>
+       </Button>
+      <TabPane layoutY="77.0" prefHeight="526.0" prefWidth="936.0" style="-fx-background-color: #374709;" tabClosingPolicy="UNAVAILABLE">
+        <tabs>
+            <Tab text="INVENTARIO">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <TableView fx:id="tablaInventario" layoutX="91.0" layoutY="54.0" prefHeight="320.0" prefWidth="755.0">
+                          <columns>
+                              <TableColumn fx:id="colInventarioID" prefWidth="75.0" text="ID" />
+                            <TableColumn fx:id="colInventarioNombre" prefWidth="167.0" text="NOMBRE" />
+                            <TableColumn fx:id="colInventarioDescripcion" prefWidth="294.0" text="DESCRIPCIÓN" />
+                              <TableColumn fx:id="colInventarioPrecio" minWidth="0.0" prefWidth="122.0" text="PRECIO" />
+                              <TableColumn fx:id="colInventarioStock" prefWidth="96.0" text="STOCK" />
+                          </columns>
+                        </TableView>
+                        <Button fx:id="buttonCrearProducto" layoutX="420.0" layoutY="407.0" mnemonicParsing="false" onAction="#crearProducto" text="Crear Producto" />
+                     </children>
+                  </AnchorPane>
+              </content>
+            </Tab>
+            <Tab text="CLIENTES">
+               <content>
+                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <TableView fx:id="tablaCliente" layoutX="91.0" layoutY="54.0" prefHeight="320.0" prefWidth="755.0">
+                           <columns>
+                              <TableColumn fx:id="colClientesID" prefWidth="75.0" text="ID" />
+                              <TableColumn fx:id="colClientesNombre" prefWidth="167.0" text="NOMBRE" />
+                              <TableColumn fx:id="colClientesDireccion" prefWidth="294.0" text="DIRECCIÓN" />
+                              <TableColumn fx:id="colClientesContacto" minWidth="0.0" prefWidth="218.0" text="CONTACTO" />
+                           </columns>
+                        </TableView>
+                        <Button fx:id="buttonCrearCliente" layoutX="426.0" layoutY="407.0" mnemonicParsing="false" onAction="#crearCliente" text="Crear Cliente" />
+                        <TextField fx:id="buscaNombre" layoutX="174.0" layoutY="20.0" promptText="Buscar por nombre" />
+                        <TextField fx:id="buscaContacto" layoutX="669.0" layoutY="20.0" promptText="Buscar por contacto" />
+                        <TextField fx:id="buscaDireccion" layoutX="405.0" layoutY="20.0" promptText="Busca por dirección" />
+                     </children>
+                  </AnchorPane>
+               </content>
+            </Tab>
+            <Tab text="PROVEEDORES">
+               <content>
+                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <Button fx:id="buttonCrearProveedor" layoutX="417.0" layoutY="407.0" mnemonicParsing="false" onAction="#crearProveedor" text="Crear Proveedor" />
+                        <TableView fx:id="tablaProveedores" layoutX="91.0" layoutY="54.0" prefHeight="320.0" prefWidth="755.0">
+                           <columns>
+                              <TableColumn fx:id="colProveedoresID" prefWidth="75.0" text="ID" />
+                              <TableColumn fx:id="colProveedoresNombre" prefWidth="167.0" text="NOMBRE" />
+                              <TableColumn fx:id="colProveedoresDireccion" prefWidth="294.0" text="DIRECCIÓN" />
+                              <TableColumn fx:id="colProveedoresContacto" minWidth="0.0" prefWidth="218.0" text="CONTACTO" />
+                           </columns>
+                        </TableView>
+                        <Button layoutX="443.0" layoutY="14.0" mnemonicParsing="false" onAction="#crearPedido" text="Crear pedido" />
+                     </children>
+                  </AnchorPane>
+               </content>
+            </Tab>
+            <Tab text="VENTAS">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <TableView fx:id="tablaVentas" layoutX="91.0" layoutY="54.0" prefHeight="320.0" prefWidth="755.0">
+                           <columns>
+                              <TableColumn fx:id="colVentaID" prefWidth="127.0" text="ID" />
+                              <TableColumn fx:id="colVentaCantidad" prefWidth="156.0" text="CANTIDAD" />
+                              <TableColumn fx:id="colVentaFecha" prefWidth="138.0" text="FECHA" />
+                              <TableColumn fx:id="colVentaClienteID" minWidth="0.0" prefWidth="110.0" text="CLIENTE" />
+                              <TableColumn fx:id="colVentaProductoID" minWidth="0.0" prefWidth="123.0" text="PRODUCTO" />
+                              <TableColumn fx:id="colVentaProveedorID" prefWidth="100.0" text="PROVEEDOR" />
+                           </columns>
+                        </TableView>
+                        <Button fx:id="buttonCrearVenta" layoutX="429.0" layoutY="407.0" mnemonicParsing="false" onAction="#crearVenta" text="Crear Venta" />
+                     </children>
+                  </AnchorPane>
+              </content>
+            </Tab>
+        </tabs>
+      </TabPane>
+      <Button fx:id="generarHTMLFactura" layoutX="517.0" layoutY="28.0" mnemonicParsing="false" onAction="#generarHTMLFactura" text="FACTURAS">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

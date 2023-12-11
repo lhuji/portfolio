@@ -1,0 +1,15 @@
+
+o
+java:S1104"YMake usernameField a static final constant or non-public and provide accessors if needed.(Ğü¨
+o
+java:S1104"YMake passwordField a static final constant or non-public and provide accessors if needed.(˜¸¢ü
+v
+java:S1450"[Remove the "primaryStage" field and declare it as a local variable in the relevant methods.(ˆ©äÔüÿÿÿÿ
+\
+java:S1117*"ARename "nombreUsuario" which hides the field declared at line 26.(Ç¨Ãëüÿÿÿÿ
+S
+java:S1117M"8Rename "root" which hides the field declared at line 28.(©ü’úÿÿÿÿ
+G
+java:S1602^",Remove useless curly braces around statement(ø¯İúÿÿÿÿ
+K
+java:S1068"0Remove this unused "primaryStage" private field.(ˆ©äÔüÿÿÿÿ

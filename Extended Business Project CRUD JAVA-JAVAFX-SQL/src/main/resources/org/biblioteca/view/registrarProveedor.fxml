@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="257.0" prefWidth="333.0" style="-fx-background-color: #212517;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.biblioteca.controlador.RegistrarProveedor">
+   <children>
+      <Label layoutX="49.0" layoutY="14.0" prefHeight="35.0" prefWidth="235.0" text="REGISTRAR PROVEEDOR" textFill="#f2f2ef">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font></Label>
+      <TextField fx:id="nombreProveedorField" layoutX="92.0" layoutY="60.0" promptText="Nombre" />
+      <TextField fx:id="direccionProveedorField" layoutX="92.0" layoutY="100.0" promptText="Dirección" />
+      <TextField fx:id="contactoProveedorField" layoutX="92.0" layoutY="140.0" promptText="Contacto" />
+      <Button fx:id="btnRegistrar" layoutX="203.0" layoutY="211.0" mnemonicParsing="false" onAction="#registrarProveedor" text="REGISTRAR" />
+      <Button fx:id="btnCancelar" layoutX="55.0" layoutY="211.0" mnemonicParsing="false" onAction="#cancelar" text="CANCELAR" />
+   </children>
+</AnchorPane>

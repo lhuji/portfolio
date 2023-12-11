@@ -1,0 +1,49 @@
+
+j
+java:S1192Ä"LDefine a constant instead of duplicating this literal "proveedorId" 4 times.(Â 8ŸÂÊ‚Â1
+j
+java:S1192º"GDefine a constant instead of duplicating this literal "nombre" 6 times.(£Óšƒşÿÿÿÿ8ŸÂÊ‚Â1
+l
+java:S1192Â"IDefine a constant instead of duplicating this literal "contacto" 4 times.(ÎŸõ‚ùÿÿÿÿ8ŸÂÊ‚Â1
+n
+java:S1192¹"KDefine a constant instead of duplicating this literal "productoId" 4 times.(‰•­šúÿÿÿÿ8ŸÂÊ‚Â1
+g
+java:S1192Á"JDefine a constant instead of duplicating this literal "direccion" 4 times.(‡ˆ™#8ŸÂÊ‚Â1
+h
+java:S1192¿"JDefine a constant instead of duplicating this literal "clienteId" 4 times.(Ûàï8ŸÂÊ‚Â1
+t
+java:S11040"WMake buscaNombre a static final constant or non-public and provide accessors if needed.(ß‘Èİ8¢ÂÊ‚Â1
+v
+java:S11041"YMake buscaContacto a static final constant or non-public and provide accessors if needed.(³™°Ë8¢ÂÊ‚Â1
+w
+java:S11042"ZMake buscaDireccion a static final constant or non-public and provide accessors if needed.(ÆÌŒ8¢ÂÊ‚Â1
+€
+java:S11043"^Make generarHTMLGeneral a static final constant or non-public and provide accessors if needed.(Û‡¨¥ıÿÿÿÿ8¢ÂÊ‚Â1
+€
+java:S11044"^Make generarHTMLFactura a static final constant or non-public and provide accessors if needed.(ı¤ğúÿÿÿÿ8¢ÂÊ‚Â1
+h
+java:S3252ª"EUse static access with "javafx.animation.Animation" for "INDEFINITE".(Õ×¶ıÿÿÿÿ8éÃÊ‚Â1
+h
+java:S3252µ"EUse static access with "javafx.animation.Animation" for "INDEFINITE".(Ïîÿ¥ùÿÿÿÿ8êÃÊ‚Â1
+_
+java:S1075Ã"ARefactor your code to get this URI from a customizable parameter.(İ¤©8 ÄÊ‚Â1
+_
+java:S1075û"ARefactor your code to get this URI from a customizable parameter.(İ¤©8÷áÒ¡Â1
+^	java:S125Œ"<This block of commented-out lines of code should be removed.(¬ÓŠ‚ıÿÿÿÿ8úáÒ¡Â1
+Z
+java:S1128"=Remove this unused import 'javafx.collections.FXCollections'.(´¶²Æ8ïÁë¢Â1
+`
+java:S1128">Remove this unused import 'javafx.collections.ObservableList'.(ÄÜ€éüÿÿÿÿ8ñÁë¢Â1
+K
+java:S1128
+".Remove this unused import 'javafx.scene.Node'.(ÑÖ¬ï8ñÁë¢Â1
+z
+java:S1128"XRemove this unused import 'net.sf.jasperreports.engine.data.JRBeanCollectionDataSource'.(¦ŸŸ˜ıÿÿÿÿ8ñÁë¢Â1
+c
+java:S1128"FRemove this unused import 'net.sf.jasperreports.engine.util.JRLoader'.(¤±–8ñÁë¢Â1
+_
+java:S1128"CRemove this unused import 'net.sf.jasperreports.view.JasperViewer'.(ÈÃ¢H8ñÁë¢Â1
+M
+java:S1128)"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8ñÁë¢Â1
+M
+java:S1128+"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8ñÁë¢Â1

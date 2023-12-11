@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="602.0" prefWidth="936.0" style="-fx-background-color: #edf2fa;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.biblioteca.controlador.LibroControlador">
+   <children>
+      <TableView fx:id="librosTableView" layoutX="254.0" layoutY="136.0" prefHeight="400.0" prefWidth="645.0" style="-fx-background-color: #808085; -fx-border-color: #09184D;">
+         <columns>
+            <TableColumn fx:id="idColumn" prefWidth="75.0" text="ID" />
+            <TableColumn fx:id="tituloColumn" prefWidth="165.0" text="Título" />
+            <TableColumn fx:id="autorColumn" prefWidth="173.0" text="Autor" />
+            <TableColumn fx:id="anoColumn" prefWidth="129.0" text="Año de Publicación" />
+            <TableColumn fx:id="cantidadColumn" prefWidth="100.0" text="Cantidad" />
+         </columns>
+      </TableView>
+      <ImageView fitHeight="212.0" fitWidth="196.0" layoutY="-51.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../img/Logo.png" />
+         </image>
+      </ImageView>
+       <Label fx:id="fechaActual" layoutX="749.0" layoutY="21.0" prefHeight="17.0" prefWidth="173.0" text="Fecha Actual" textAlignment="RIGHT" textFill="#2f2e2e">
+           <font>
+               <Font size="23.0" />
+           </font>
+       </Label>
+       <Label fx:id="horaActual" layoutX="749.0" layoutY="55.0" prefHeight="17.0" prefWidth="173.0" text="Hora actual" textAlignment="RIGHT" textFill="#2f2e2e">
+           <font>
+               <Font size="23.0" />
+           </font>
+       </Label>
+       <Label fx:id="usuarioField" layoutX="23.0" layoutY="89.0" prefHeight="34.0" prefWidth="309.0" text="Usuario" textAlignment="RIGHT" textFill="#2f2e2e">
+           <font>
+               <Font size="23.0" />
+           </font>
+       </Label>
+       <Accordion layoutX="14.0" layoutY="165.0" prefWidth="202.0" style="-fx-background-color: #09184D;">
+        <panes>
+          <TitledPane animated="false" text="Crear Libro">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: #808085;">
+                     <children>
+                        <TextField fx:id="nuevoTituloField" layoutX="14.0" layoutY="20.0" prefHeight="26.0" prefWidth="173.0" promptText="Nuevo Título" />
+                        <TextField fx:id="nuevoAutorField" layoutX="14.0" layoutY="60.0" prefHeight="26.0" prefWidth="173.0" promptText="Nuevo Autor" />
+                        <TextField fx:id="nuevoAnioField" layoutX="14.0" layoutY="100.0" prefHeight="26.0" prefWidth="173.0" promptText="Nuevo Año de Publicación" />
+                        <Button layoutX="66.0" layoutY="140.0" onAction="#registrarLibro" style="-fx-background-color: #7B5Bf2;" text="Registrar" />
+                     </children>
+                  </AnchorPane>
+            </content>
+          </TitledPane>
+          <TitledPane animated="false" text="Consultar Libro">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: #808085;">
+                     <children>
+                        <TextField fx:id="tituloField" layoutX="14.0" layoutY="20.0" prefHeight="26.0" prefWidth="173.0" promptText="Título" />
+                        <TextField fx:id="autorField" layoutX="14.0" layoutY="60.0" prefHeight="26.0" prefWidth="173.0" promptText="Autor" />
+                        <TextField fx:id="anioField" layoutX="14.0" layoutY="100.0" prefHeight="26.0" prefWidth="173.0" promptText="Año de Publicación" />
+                        <Button layoutX="64.0" layoutY="140.0" onAction="#consultarLibros" style="-fx-background-color: #7B5Bf2;" text="Consultar" />
+                     </children>
+                  </AnchorPane>
+            </content>
+          </TitledPane>
+          <TitledPane animated="false" text="Actualizar Libro">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: #808085;">
+                     <children>
+                        <TextField fx:id="actualizarTituloField" layoutX="14.0" layoutY="20.0" prefHeight="20.0" prefWidth="173.0" promptText="Nuevo Título" />
+                        <TextField fx:id="nuevoAutorActualizadoField" layoutX="14.0" layoutY="60.0" prefHeight="20.0" prefWidth="173.0" promptText="Nuevo Autor" />
+                        <TextField fx:id="nuevaCantidadField" layoutX="14.0" layoutY="100.0" prefHeight="20.0" prefWidth="173.0" promptText="Nueva Cantidad Disponible" />
+                        <Button layoutX="63.0" layoutY="136.0" onAction="#actualizarLibro" style="-fx-background-color: #7B5Bf2;" text="Actualizar" />
+                     </children>
+                  </AnchorPane>
+            </content>
+          </TitledPane>
+        </panes>
+      </Accordion>
+      <Button fx:id="actLibro" layoutX="417.0" layoutY="106.0" mnemonicParsing="false" onAction="#actualizarTabla" text="Actualizar Libros" />
+   </children>
+</AnchorPane>

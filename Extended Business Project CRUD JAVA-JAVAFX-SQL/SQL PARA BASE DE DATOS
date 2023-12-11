@@ -1,0 +1,56 @@
+-- Crear la base de datos
+CREATE DATABASE IF NOT EXISTS miempresa;
+USE miempresa;
+
+-- Crear tabla Usuario
+CREATE TABLE IF NOT EXISTS Usuarios (
+    idUsuario INT PRIMARY KEY AUTO_INCREMENT,
+    nombre_usuario VARCHAR(500),
+    contrasena VARCHAR(500)
+);
+
+-- Crear tabla Producto
+CREATE TABLE IF NOT EXISTS Producto (
+    productoId INT PRIMARY KEY AUTO_INCREMENT,
+    nombre VARCHAR(255),
+    descripcion VARCHAR(1000),
+    precio DOUBLE,
+    cantidadEnStock INT
+);
+
+-- Crear tabla Cliente
+CREATE TABLE IF NOT EXISTS Cliente (
+    clienteId INT PRIMARY KEY AUTO_INCREMENT,
+    nombre VARCHAR(255),
+    direccion VARCHAR(255),
+    contacto VARCHAR(255)
+);
+
+-- Crear tabla Proveedor
+CREATE TABLE IF NOT EXISTS Proveedor (
+    proveedorId INT PRIMARY KEY AUTO_INCREMENT,
+    nombre VARCHAR(255),
+    direccion VARCHAR(255),
+    contacto VARCHAR(255)
+);
+
+-- Crear tabla Venta
+CREATE TABLE IF NOT EXISTS Venta (
+    ventaId INT PRIMARY KEY AUTO_INCREMENT,
+    cantidad INT,
+    fecha DATE,
+    clienteId INT,
+    productoId INT,
+    proveedorId INT,
+    FOREIGN KEY (clienteId) REFERENCES Cliente(clienteId),
+    FOREIGN KEY (productoId) REFERENCES Producto(productoId),
+    FOREIGN KEY (proveedorId) REFERENCES Proveedor(proveedorId)
+);
+
+-- Crear tabla Pedido
+CREATE TABLE IF NOT EXISTS pedido (
+    idPedido INT PRIMARY KEY AUTO_INCREMENT,
+    nombreProducto VARCHAR(255),
+    cantidad INT,
+    nombreProveedor VARCHAR(255)
+);

@@ -1,0 +1,31 @@
+
+i
+java:S1192["GDefine a constant instead of duplicating this literal "titulo" 5 times.(¹Ôüÿÿÿÿ8´Â”„À1
+h
+java:S1192\"FDefine a constant instead of duplicating this literal "autor" 5 times.(ô‹‰€ÿÿÿÿÿ8´Â”„À1
+e
+java:S1192Z"HDefine a constant instead of duplicating this literal "idLibro" 5 times.(é‰Ô8´Â”„À1
+m
+java:S1192]"PDefine a constant instead of duplicating this literal "anioPublicacion" 5 times.(§½Ã8µÂ”„À1
+u
+java:S1192^"SDefine a constant instead of duplicating this literal "cantidadDisponible" 5 times.(äßĞÔøÿÿÿÿ8µÂ”„À1
+K
+java:S1604™"(Make this anonymous inner class a lambda(ÿÀî¯üÿÿÿÿ8¶Â”„À1
+v
+java:S1104"TMake actLibro a static final constant or non-public and provide accessors if needed.(­´Ìüÿÿÿÿ8¶Â”„À1
+i
+java:S1659"GDeclare "horaActual" and all following declarations on a separate line.(µ“¬ııÿÿÿÿ8–Ã”„À1
+d
+java:S1659!"GDeclare "autorField" and all following declarations on a separate line.(’ë¢¦8—Ã”„À1
+o
+java:S1659#"RDeclare "seccionNuevoChoiceBox" and all following declarations on a separate line.(õğÂ–8—Ã”„À1
+K
+java:S1659'")Declare "autorColumn" on a separate line.(À×Ôşÿÿÿÿ8—Ã”„À1
+N
+java:S1659)",Declare "cantidadColumn" on a separate line.(ÅÓüìıÿÿÿÿ8—Ã”„À1
+g
+java:S3252<"EUse static access with "javafx.animation.Animation" for "INDEFINITE".(Êı şÿÿÿÿ8Ã”„À1
+O
+java:S1172³",Remove this unused method parameter "event".(ğñ‚¥øÿÿÿÿ8Ğ¯•„À1
+\
+java:S1144"9Remove this unused private "consultarLibrosPorId" method.(šÑ´Áùÿÿÿÿ8¶Ã”„À1

@@ -1,0 +1,11 @@
+
+d
+java:S1192S"GDefine a constant instead of duplicating this literal "nombre" 6 times.(Ð’è˜8ø½ðÿÁ1
+l
+java:S2095Ñ"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(…¯³8¶¾ðÿÁ1
+
+java:S1450 "]Remove the "menuController" field and declare it as a local variable in the relevant methods.(Øšõ¤ÿÿÿÿÿ8·¾ðÿÁ1
+N
+java:S1172+",Remove this unused method parameter "event".(ùÇ¡¥þÿÿÿÿ8»¾ðÿÁ1
+T
+java:S1068 "2Remove this unused "menuController" private field.(Øšõ¤ÿÿÿÿÿ8Î¾ðÿÁ1
